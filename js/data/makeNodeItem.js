@@ -17,7 +17,7 @@ export function makeNoteItem(note) {
       : `
     <div class="note-header-icons">
         <i class="fas fa-edit"></i>
-        <i class="fas fa-archive"></i>
+        <i class="fas fa-archive"></i> 
         <i class="fas fa-trash"></i>
     </div>`
   } 
@@ -26,7 +26,7 @@ export function makeNoteItem(note) {
 }
 
 export function makeAddedItem(note) {
-  return `<tr class="note-item" id='addedItem'>
+  return `<tr class="note-item" id ='addedItem'>
     <td class='add-note' colspan="6">
         <form id='add-form'>
             <input required type="text" id="fname2" value="${

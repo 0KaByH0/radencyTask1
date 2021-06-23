@@ -62,7 +62,6 @@ function removeNote(note, item, tableBody) {
         });
       }
     });
-
     createBtn.disabled = false;
   });
 }

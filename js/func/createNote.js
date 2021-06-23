@@ -1,7 +1,6 @@
 import { makeNoteItem, makeAddedItem } from '../data/makeNodeItem.js';
 import { addNotesBtn } from '../render/renderMainTable.js';
 import renderSummary from '../render/renderSummary.js';
-
 import { getNotes, addNewNote, makeNewNoteObj } from '../data/notes.js';
 
 export default function addNote(tableBody) {

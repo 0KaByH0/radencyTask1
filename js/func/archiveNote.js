@@ -10,9 +10,7 @@ export default function archiveNoteItem(archiveId, item) {
 
   console.log(getNotes());
   archiveNote(archiveId);
-  // if (mainTableBody.contains(item)) {
   mainTableBody.removeChild(item);
-  //}
 
   Array.from(sumTableBody).map((body) => {
     body.classList.contains('open') && body.id === el.category
